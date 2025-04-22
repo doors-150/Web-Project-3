@@ -1,0 +1,150 @@
+<!--Name: Parth Pahwa
+
+Course: Web Development
+
+Teacher: Ms. Hoitink
+
+School: Pembina Trails Collegiate
+
+Date Last Modified: 4/21/2025 -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Treaty 3 - Home</title>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!--Internal CSS-->
+    <style>
+      #navbar {
+
+        /* sets size of the navbar text */
+        font-size: 20px;
+
+        /* sets distance between the links */
+        margin: 50px;
+
+        /* makes all the links on one line instead of a list */
+        display: inline;
+      }
+    </style>
+
+    <!--Used because I wanted to make two articles beside each other.-->
+    <style>
+      .article-inline {
+        /* makes the two articles equally sized */
+        display: grid;
+
+        /* changes size of each article */
+        grid-template-columns: 1fr 1fr;
+
+        /* changes space between the two articles*/
+        grid-gap: 20px;
+      }
+    </style>
+
+    <!--Used because I wanted to make the area around the image look better.-->
+    <style>
+      .image-style {
+        background-color: #6B3400;
+        padding-top: 0px;
+        border: 2px #d3ca79 ridge;
+      }
+    </style>
+
+    <!--Used to make the text in the first article more spaced.-->
+    <style>
+      .article1-line-spacing {
+        line-height: 242%;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!--The header, which has the navigation bar-->
+    <header>
+      <!--Nav bar-->
+      <div>
+        <nav>
+          <ul style="list-style: none">
+            <li id="navbar"><a href="page2.html">Communities in treaty 3</a></li>
+            <li id="navbar"><a href="page3.html">Treaty 3 History</a></li>
+            <li id="navbar"><a href="feedback.html">Give feedback</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </br>
+    <main>
+      <h1>WHAT IS TREATY 3?</h1>
+        <div class="article-inline">
+
+          <!--First article-->
+          <div class="article1-line-spacing">
+            <article>
+              <p>Treaty 3 is one of the treaties that were made in Canada between the 
+
+                <!--span being used-->
+                <span style="color: yellow;">Government</span> and the 
+                <span style="color: yellow;">Indigenous</span> people in 1873. It covers areas in both
+                Ontario and 
+                Manitoba. The location as to where this treaty was negociated was in a place called
+                the Lake of the Woods.
+              </p>
+            </br>
+              <p>It all started in 1869, when the Government of Canada wanted to create a road and water system
+              from Lower fort garry, Manitoba to northwest Ontario.
+              It would have to go through the territory of where the Ojibwe people lived,
+              so the engineers of this project knew that if they wanted this to be successful,
+              they would need to have good relations with the indigenous people in that area.
+              </p>
+            </article>
+          </div>
+
+          <!--Second article-->
+          <article>
+            <p>This treaty is also known as the Northwest-Angle treaty because that was the part of the Lake of the Woods
+              where the treaty was signed. Below is a map of its location.
+            </p>
+            <div class="image-style">
+              <!--Image-->
+              <figure>
+                <img src="Images/Lake-of-the-woods.png"
+                alt="A picture of the Lake of the Woods, located between Manitoba, Ontario and the United States." />
+                <figcaption>Taken from <a href="https://en.wikipedia.org/wiki/Lake_of_the_Woods">wikipedia</a></figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </br>
+          <!--Third article-->
+          <article>
+            <p>It took years to be signed and went through a lot of negociations and changes.
+              Because of that, this is an important historic agreement that has helped shape Canada to what it is today.
+              To learn more, get started by
+              clicking on one of the links on the navigation bar to learn about this amazing treaty. Or, you can watch this video.</p>
+
+              <!--Video embed-->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/04ORxq5nhNg?si=uW2XmNVEh8WKOfA1"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </br>
+              <a href="https://www.youtube.com/watch?v=04ORxq5nhNg">Watch on Youtube</a>
+          </article>
+      </br>
+    </main>
+    <!--Footer-->
+    <div>
+      <footer>
+        <p>This website is intended for grades 9-12. Every image was taken from a website, and the link to that
+          website is included with each image.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

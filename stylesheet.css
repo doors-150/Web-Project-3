@@ -1,0 +1,68 @@
+/* Main external CSS file */
+
+/* I chose the color scheme to be 
+primary: yellow (the text),
+secondary: orange (the footer)\
+and neutral: maroon (the background).
+This website has a lot of text,
+so I wanted the colors to be somewhat dark and easy on the eyes while not being too distracting.
+That way the website looks nice, you can easily read everything and it is not distracting. */ 
+
+body {
+  /* Sets background color of the whole website to black */
+  background-color: #691B1B;
+
+  /* Sets text to the center */
+  text-align: center;
+
+  /* sets the font style for the whole website */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  /* Changes the sizes of the border. The numbers increase (in order): Up, right, down, left */
+  padding: 1px 1px 1px 1px;
+  
+  /* changes space between the body and the end of the web page */
+  margin: 8px;
+
+  /* Sets text color */
+  color: #d3ca79;
+
+  /* Changes space between lines */
+  line-height: 140%;
+}
+
+header {
+  /* Creates a border around all the content of the website */
+  border: 2px #d3ca79 solid;
+  /* background-color: #e83f25; */
+  background-color: #6B3400;
+}
+article {
+  border: 2px #d3ca79 ridge;
+  background-color: #572A00;
+}
+
+footer {
+  /* Adds a line underneath any text in the footer */
+  text-decoration: underline;
+
+  border: 2px #d3ca79 ridge;
+  background-color: #572A00;
+}
+
+p {
+  /* Changes font size */
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+figcaption {
+  text-decoration: underline;
+}
+
+a {
+  color: #E2DC9C;
+}
